@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SHALINI M S</title>
+    <meta name="description" content="My Portfolio CV" />
+    
+    <!-- Google Fonts & Font Awesome -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    
+    <style>
+        /* Reset */
+        * { margin:0; padding:0; box-sizing:border-box; }
+
+        /* Body with background image */
+        body {
+            font-family:'Montserrat', sans-serif;
+            background: url('coding-at-night-stockcake.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color:#fff;
+            min-height:100vh;
+            text-align:center;
+            position: relative;
+        }
+
+        /* Dark overlay */
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0,0,0,0.7);
+            z-index: -1;
+        }
+
+        /* Navbar */
+        .navbar { background: rgba(0,0,0,0.7); padding:15px 30px; }
+        .navbar-brand { font-size:2rem; color:#ffcc00; text-decoration:none; }
+        .navbar-nav { list-style:none; display:flex; gap:20px; justify-content:center; flex-wrap:wrap; }
+        .navbar-nav li a { color:#fff; font-size:1.2rem; text-decoration:none; transition:color 0.3s; }
+        .navbar-nav li a:hover { color:#ffcc00; }
+
+        /* Hero Section */
+        .page-header-image { width:100%; height:100vh; background-size:cover; background-position:center; display:flex; align-items:center; justify-content:center; flex-direction:column; }
+        .cc-profile-image img { width:310px; height:auto; border-radius:50%; margin-bottom:20px; }
+
+        /* Buttons */
+        .btn { padding:12px 25px; font-size:1.2rem; border-radius:8px; border:none; background:#ffcc00; color:#000; cursor:pointer; transition:background 0.3s; margin:10px 5px; }
+        .btn:hover { background:#e6b800; }
+
+        /* Card */
+        .card { background:#000; border-radius:12px; padding:30px; margin:20px auto; max-width:900px; text-align:left; border:2px solid #ffcc00; }
+
+        /* Subtitles */
+        .sub-title { font-size:1.6rem; color:#ffcc00; text-transform:uppercase; letter-spacing:1px; margin:20px 0; }
+
+        /* Certificates Grid */
+        .certificates-grid { display:flex; flex-wrap:wrap; justify-content:center; gap:25px; }
+        .certificate { width:220px; text-align:center; }
+        .certificate img { width:100%; height:auto; border-radius:8px; border:2px solid #ffcc00; }
+        .certificate p { margin-top:8px; color:#ffcc00; font-weight:bold; font-size:1rem; }
+
+        /* Footer */
+        footer { background: rgba(0,0,0,0.8); text-align:center; padding:25px; color:#ccc; display:flex; flex-direction:column; align-items:center; gap:10px; }
+        footer a { color:#ffcc00; margin:0 10px; font-size:1.4rem; }
+        footer a:hover { color:#fff; }
+
+        /* Sections */
+        .section { display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; }
+
+        /* Responsive */
+        @media(max-width:768px){
+            .navbar-nav { flex-direction:column; gap:10px; }
+            .card { max-width:90%; padding:20px; }
+            .btn { width:90%; font-size:1rem; }
+            .certificates-grid { flex-direction:column; gap:15px; }
+            .cc-profile-image img { width:300px; }
+            .certificate { width:90%; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<header>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-transparent">
+        <div class="container">
+            <a class="navbar-brand" href="#">SHALINI M S</a>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#summary">Summary</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<div class="page-header-image" style="background-image:url('background img.avif');">
+    <div class="cc-profile-image">
+        <img src="shalini.jpg" alt="Profile Image">
+    </div>
+    <div class="h2 title">SHALINI M S</div>
+    <a class="btn" href="Shalini.pdf" download="Shalini">Download CV</a>
+</div>
+
+<div class="page-content">
+
+    <!-- About Section -->
+    <div class="section" id="about">
+        <h4 class="sub-title">About Me</h4>
+        <div class="card">
+            <p>Email: shalinishivakumar2004@gmail.com</p>
+            <p>Phone: +91 7483985974</p>
+            <p>Address: Tumkur, Karnataka, India</p>
+            <p>Languages: Kannada, English</p>
+        </div>
+    </div>
+
+    <!-- Summary Section -->
+    <div class="section" id="summary">
+        <h4 class="sub-title">Summary</h4>
+        <div class="card">
+            <p>
+            Highly motivated and dedicated Bachelor of Engineering graduate with strong proficiency in Python, C, Java, HTML, and CSS. Experienced in developing projects involving Machine Learning, Web Development, and Data Analysis. Skilled in problem-solving, critical thinking, and applying technology to deliver innovative solutions. Passionate about learning new technologies and contributing to impactful projects in software development and data-driven domains.
+            </p>
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="section" id="skills">
+        <h4 class="sub-title">Skills</h4>
+        <div class="card">
+            <h5 class="sub-title">Programming Languages</h5>
+            <p>Python: Intermediate</p>
+            <p>C: Basic</p>
+            <p>Java: Basic</p>
+            <h5 class="sub-title">Web Development</h5>
+            <p>HTML: Standard</p>
+            <p>CSS: Standard</p>
+            <p>JavaScript: Basics</p>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="section" id="projects">
+        <h4 class="sub-title">Projects</h4>
+        <!-- Project 1 -->
+        <div class="card">
+            <h5 class="sub-title">Face Recognition Attendance Management System (ML)</h5>
+            <ul>
+                <li>Face Detection: Detecting faces in images using OpenCV.</li>
+                <li>Face Recognition: Using machine learning models (CNN, SVM).</li>
+                <li>Attendance Marking: Based on recognized faces.</li>
+                <li>Database Integration: Storing attendance records.</li>
+            </ul>
+        </div>
+        <!-- Project 2 -->
+        <div class="card">
+            <h5 class="sub-title">Fraud Detection in Bank Transactions</h5>
+            <ul>
+                <li>DBSCAN: Identifies anomalies.</li>
+                <li>Isolation Forest: Detects patterns.</li>
+                <li>K-Means: Groups transactions to identify unusual patterns.</li>
+            </ul>
+        </div>
+        <!-- Project 3 -->
+        <div class="card">
+            <h5 class="sub-title">SOS Gaming</h5>
+            <ul>
+                <li>Web-based game using HTML, JS, CSS.</li>
+                <li>Interactive gameplay with user input handling.</li>
+                <li>Logic-based game mechanics with JS.</li>
+            </ul>
+        </div>
+        <!-- Project 4 -->
+        <div class="card">
+            <h5 class="sub-title">AI-Generated Phishing Email Detection</h5>
+            <p>Technologies: Python, Flask, HTML, CSS, JS, Scikit-learn, NLP</p>
+            <ul>
+                <li>Full-stack email classification to detect phishing and AI-written emails.</li>
+                <li>Built ML models with NLP and integrated system with responsive web UI.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Certificates Section -->
+    <div class="section" id="certificates">
+        <h4 class="sub-title">Certificates</h4>
+        <div class="certificates-grid">
+            <div class="certificate">
+                <img src="full stack geeks for geeks.jpg" alt="Certificate 1">
+                <p>Full Stack Geeks For Geeks</p>
+            </div>
+            <div class="certificate">
+                <img src="REVERSE CODING(PES).jpeg" alt="Certificate 2">
+                <p>Reverse Coding</p>
+            </div>
+            <div class="certificate">
+                <img src="SHALINI MS KAGGLE.jpg" alt="Certificate 3">
+                <p>Kaggle In Python</p>
+            </div>
+            <div class="certificate">
+                <img src="SSIT CODEFEST.jpg" alt="Certificate 4">
+                <p>SSIT CodeFest</p>
+            </div>
+            <div class="certificate">
+                <img src="Cyber Security.jpg" alt="Certificate 5">
+                <p>Cyber Security</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="section" id="contact">
+        <h4 class="sub-title">Contact</h4>
+        <div class="card">
+            <p>Email: shalinishivakumar2004@gmail.com</p>
+            <p>Phone: +91 7483985974</p>
+            <p>Address: Tumkur, Karnataka, India</p>
+            <br>
+            <a class="btn" href="mailto:shalinishivakumar2004@gmail.com">Send Email</a>
+        </div>
+    </div>
+
+</div>
+
+<!-- Footer -->
+<footer>
+    <div>
+        <a href="https://github.com/Shalini875-alt"><i class="fa fa-github fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/shalini-m-s-398b26287/"><i class="fa fa-linkedin fa-2x"></i></a>
+        <a href="https://www.instagram.com/shalini__8_8/?hl=en"><i class="fa fa-instagram fa-2x"></i></a>
+    </div>
+    <div class="h4 title">SHALINI M S</div>
+    <p>&copy; 2025 SHALINI M S. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
